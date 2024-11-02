@@ -1,0 +1,148 @@
+:root {
+  --primary: #406f73;
+  --secondary: #79d1d9;
+  --neutral: #d2a4b0;
+  --accent: #ffdce5;
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container-xxl {
+  margin-top: 3rem;
+}
+
+.about-wrapper {
+  gap: 2rem;
+}
+
+.home-button {
+  background: linear-gradient(to bottom, var(--secondary), var(--accent));
+}
+
+.about-desc {
+  text-align: justify;
+}
+
+.menu-card {
+  border-radius: 1rem;
+  width: 7rem;
+}
+
+.menu-card img {
+  width: 100%;
+}
+
+.type-image-wrapper {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-card h1,
+.menu-card p,
+.menu-card button {
+  font-size: 0.7rem;
+}
+
+.type-image-wrapper img {
+  width: 75%;
+}
+
+.menu-type-card p {
+  font-size: 625rem;
+}
+
+.type-image-wrapper p {
+  font-size: 1rem;
+}
+
+.contact-video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.menu-card-content button {
+  width: 75%;
+  background: linear-gradient(to bottom, var(--secondary), var(--accent));
+  color: white;
+}
+
+.contact-button {
+  background: linear-gradient(to bottom, var(--secondary), var(--accent));
+}
+
+#reservation {
+  padding: 1rem 0px;
+  border-radius: 1rem;
+}
+
+.reservation-button {
+  background: linear-gradient(to bottom, var(--secondary), var(--accent));
+}
+
+#button {
+  position: absolute;
+  top: 85%;
+  left: 95%;
+  position: fixed;
+  display: none;
+  background: transparent;
+}
+
+.navbar-active {
+  box-shadow: 0px 7px 8px 0px rgba(85, 226, 223, 0.51);
+  backdrop-filter: blur(30px);
+}
+
+.active {
+  background-color: #e4e4e4;
+}
+
+@media screen and (min-width: 768px) {
+  .about-wrapper {
+    gap: 10rem;
+  }
+
+  #reservation {
+    background-color: #e4e4e4;
+    padding: 1rem 0px;
+    border-radius: 1rem;
+  }
+
+  .type-image-wrapper {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .menu-card {
+    width: 15rem;
+  }
+
+  .menu-card img {
+    width: 10;
+  }
+
+  .type-image-wrapper img {
+    width: 50%;
+  }
+
+  .menu-type-card p {
+    font-size: 1rem;
+  }
+
+  .contact-video {
+    padding-bottom: 56%;
+  }
+}

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assests/th-removebg-preview.png" alt="" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase fw-bold fs-5 d-flex gap-lg-5"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="container-xxl">
+      <section class="home mt-5" id="home">
+        <div class="home-wrapper d-flex flex-md-row flex-column gap-md-0 gap-5">
+          <img src="assests/logo-removebg-preview.png" alt="Home" />
+
+          <div class="home-contenct text-md-end px-2 text-center">
+            <h1 class="home-tittle text-uppercase fw-bold fs-md-2 fs-4">
+              SHOW YOUR CREATIVITY!
+            </h1>
+            <p class="home-desc fs-md-5 fw-semibold">
+              Join a universe of unlimited worlds, all connected to each other.
+              Create mind-bending worlds together with friends and fill them
+              with anything your heart desires! Collecting seeds, growing trees,
+              harvesting and combining seeds to make new ones is the heart of
+              the game. As universes go, Growtopia is filled with everyday
+              heroes and some villains too.
+            </p>
+            <button
+              class="home-button btn text-white fs-5 border-3 border-black border-opacity-30 gap-3 fw-semibold rounded-pill px-md-4 py-md-2"
+            >
+              Sign-in <i class="fa-solid fa-user"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section id="about" class="mt-5">
+        <div
+          class="about-wrapper d-flex align-items-center flex-md-row flex-column-reverse"
+        >
+          <div class="about-content text-md-start text-center">
+            <h1 class="about-tittle text-uppercase fw-bold fs-md-2 fs-4">
+              ABOUT
+            </h1>
+            <p class="about-desc fs-6 px-5 px-md-0 fw-semibold">
+              Growtopia is a free-to-play 2D sandbox MMO video game that boasts
+              an unlimited number of worlds, thousands of unique items to be
+              discovered, year-round events and countless of opportunities to
+              socialize and make new friends from around the globe.
+            </p>
+          </div>
+          <img
+            src="assests/GT-removebg-preview.png"
+            alt=""
+            class="w-md-100 w-50"
+          />
+        </div>
+      </section>
+
+      <!-- Menu Section -->
+      <section id="menu" class="mt-5">
+        <div class="menu-wrapper">
+          <h1 class="Menu-tittle fs-2 fw-bold text-center">Main Item</h1>
+
+          <div class="menu-type d-flex gap-md-5 gap-2 justify-content-center">
+            <div
+              class="menu-type-card d-flex flex-column gap-2 align-items-center"
+            >
+              <div class="type-image-wrapper shadow-lg">
+                <img src="assests/WL-removebg-preview.png" alt="World Lock" />
+              </div>
+
+              <p class="menu-type-desc fw-semibold fs-5">WL</p>
+            </div>
+            <div
+              class="menu-type-card d-flex flex-column gap-2 align-items-center"
+            >
+              <div class="type-image-wrapper shadow-lg">
+                <img src="assests/DL-removebg-preview.png" alt="diamond lock" />
+              </div>
+
+              <p class="menu-type-desc fw-semibold fs-5">DL</p>
+            </div>
+            <div
+              class="menu-type-card d-flex flex-column gap-2 align-items-center"
+            >
+              <div class="type-image-wrapper shadow-lg">
+                <img src="assests/BGL.png" alt="blue gem lock" />
+              </div>
+
+              <p class="menu-type-desc fw-semibold fs-5">BGL</p>
+            </div>
+            <div
+              class="menu-type-card d-flex flex-column gap-2 align-items-center"
+            >
+              <div class="type-image-wrapper shadow-lg">
+                <img src="assests/wing-removebg-preview.png" alt="Vending" />
+              </div>
+
+              <p class="menu-type-desc fw-semibold fs-5">Wings</p>
+            </div>
+            <div
+              class="menu-type-card d-flex flex-column gap-2 align-items-center"
+            >
+              <div class="type-image-wrapper shadow-lg">
+                <img src="assests/trophy-removebg-preview.png" alt="Vending" />
+              </div>
+
+              <p class="-type-desc fw-semibold fs-5">WOTD</p>
+            </div>
+          </div>
+
+          <div
+            class="menu-card-wrapper mt-5 row row-cols-md-5 row-cols-5 gap-md-5 gap-2 justify-content-center"
+          >
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/VEND.png" alt="Vending" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">Vending</h1>
+                <p class="menu-card-price fw-semibold">Rp 10.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/weather-removebg-preview.png" alt="weather" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">Weather</h1>
+                <p class="menu-card-price fw-semibold">Rp 20.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/Hand-removebg-preview.png" alt="Hand" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">Hand</h1>
+                <p class="menu-card-price fw-semibold">Rp 90.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/face-removebg-preview.png" alt="face" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">Face</h1>
+                <p class="menu-card-price fw-semibold">Rp 70.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/emoji.jpeg" alt="emoji" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">All Emojis</h1>
+                <p class="menu-card-price fw-semibold">Rp 25.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/gems-removebg-preview.png" alt="gems" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">Gems</h1>
+                <p class="menu-card-price fw-semibold">Rp 50.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/tlp-removebg-preview.png" alt="Roles" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">Roles</h1>
+                <p class="menu-card-price fw-semibold">Rp 10.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+            <div
+              class="menu-card py-3 d-flex flex-column align-items-center shadow-lg"
+            >
+              <img src="assests/mega-removebg-preview.png" alt="sponsor" />
+
+              <div
+                class="menu-card-content d-flex flex-column align-items-center py-1 border-top w-100"
+              >
+                <h1 class="menu-card-title fw-bold">Sponsors</h1>
+                <p class="menu-card-price fw-semibold">Rp 95.000</p>
+                <button class="py-1 rounded-pill btn btn-sm">Buy Item</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- reservation section -->
+      <section id="reservation" class="mt-5 mb-5">
+        <div
+          class="reservation-wrapper w-100 d-flex flex-column align-items-center w-md-75 w-auto m-auto px-5"
+        >
+          <h1
+            class="reservation-tittle fs-1 fw-bold text-uppercase text-center mt-5"
+          >
+            Reservation
+          </h1>
+          <div class="reservation-form w-100">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label fs-md-4 fw-bold"
+              >Name</label
+            >
+            <div class="nama-form d-flex gap-md-5 gap-1 mb-3">
+              <input
+                type="text"
+                class="form-control shadow-lg"
+                id="exampleFormControlInput1"
+                placeholder="First"
+              />
+              <input
+                type="text"
+                class="form-control shadow-lg"
+                id="exampleFormControlInput1"
+                placeholder="Second"
+              />
+            </div>
+            <div class="game-form">
+              <div class="game-form-wrapper d-flex gap-md-5 gap-1">
+                <div class="w-100">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fs-md-4 fw-bold"
+                    >Name World</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-lg"
+                    id="exampleFormControlInput1"
+                    placeholder="Name World"
+                  />
+                </div>
+                <div class="w-100">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fs-md-4 fw-bold"
+                    >Name Account</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-lg"
+                    id="exampleFormControlInput1"
+                    placeholder="Nickname"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="date-form">
+              <div class="date-form-wrapper d-flex gap-md-5 gap-1">
+                <div class="w-100">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fs-md-4 fw-bold"
+                    >Reservation Date</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control shadow-lg"
+                    id="exampleFormControlInput1"
+                    placeholder="DD/MM/YY"
+                  />
+                </div>
+                <div class="w-100">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fs-md-4 fw-bold"
+                    >Phone</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-lg"
+                    id="exampleFormControlInput1"
+                    placeholder="######"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="total-form">
+              <div class="total-form-wrapper d-flex gap-md-5 gap-1">
+                <div class="w-100">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fs-md-4 fw-bold"
+                    >Total buying</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control shadow-lg"
+                    id="exampleFormControlInput1"
+                    placeholder="Select"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="total-form">
+              <div class="total-form-wrapper d-flex gap-md-5 gap-1">
+                <div class="w-100">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fs-md-4 fw-bold"
+                    >Note For Us</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="Write Here"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="reservation-button btn btn-sm rounded-pill border- w-50 mt-3 py-1 text-white"
+          >
+            Reservation Now
+          </button>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section id="contact" class="mt-5">
+        <div class="contact-wrapper d-flex gap-5 flex-md-row flex-column">
+          <video width="550" src="assests/Growtopia Official Trailer 3.mp4" alt="contact" class="img-fluid" controls></video>
+
+          <div class="contact-content text-md-end text-center">
+            <h1 class="contact-title fs-1 fw-bold text-uppercase">
+              Contact Us
+            </h1>
+            <p class="contact-desc fs-5 fw-semibold px-2 px-md-0">
+              Contact us for more information and problem,Join other Growtopians
+              for news and updates on the game and the wiki. report <br /><span
+                >and follow our social media Get connected with our community
+                and start contributing!</span
+              >
+            </p>
+            <button
+              class="contact-button border-2 rounded-pill btn text-white fw-bold"
+            >
+              Contact us
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="text-center text-lg-start bg-body-tertiary text-muted mt-5"
+      >
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Growtopia
+                </h6>
+                <p>
+                  Follow Growtopia on your preferred Social Media channel to see
+                  awesome creations by fellow players, and random Growtopia
+                  beauty. Like and share with your friends!
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                
+                  <i class="fas fa-envelope me-3"></i>
+                  support@growtopiagame.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+               
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2024 Growtopia Game
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/e0370d2813.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
